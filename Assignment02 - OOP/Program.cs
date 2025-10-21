@@ -1,5 +1,7 @@
 ﻿using static Assignment02___OOP.Employee;
 using static Assignment02___OOP.Person;
+using static Assignment02___OOP.Rectangle;
+
 
 namespace Assignment02___OOP
 {
@@ -34,26 +36,32 @@ namespace Assignment02___OOP
             #endregion
 
             #region Q3
-            Person[] persons = new Person[3];
+            //Person[] persons = new Person[3];
 
-            persons[0].Name = "Abdulrahman";
-            persons[0].Age = 21;
+            //persons[0].Name = "Abdulrahman";
+            //persons[0].Age = 21;
 
-            persons[1].Name = "Mahmoud";
-            persons[1].Age = 60;
+            //persons[1].Name = "Mahmoud";
+            //persons[1].Age = 60;
 
-            persons[2].Name = "Ibrahim";
-            persons[2].Age = 121;
+            //persons[2].Name = "Ibrahim";
+            //persons[2].Age = 121;
 
-            Console.WriteLine(Person.GetOldestPerson(persons));
-
-
-
+            //Console.WriteLine(Person.GetOldestPerson(persons));
 
 
             #endregion
 
+            #region Q4
 
+            Rectangle rectangle = new Rectangle(3, 7);
+
+            Console.WriteLine(rectangle.DisplayInfo());
+
+            Console.WriteLine(rectangle.GetArea());
+
+
+            #endregion
 
 
 
